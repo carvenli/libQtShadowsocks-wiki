@@ -1,7 +1,7 @@
-The namespace of `libQtShadowsocks` is shortened as `QSS`, which stands for Qt, Shadow, Socks respectively.
+The namespace of `libQtShadowsocks` is shortened as `QSS`, which stands for **Q**t**S**hadow**S**ocks respectively.
 
-You can subclass `BaseController` to write your own controller classes. While the recommended way to utilise this library is to use `LocalController` and `ServerController`(TODO) directly.
+You can subclass `Controller` to write your own controller classes. While the recommended way to utilise this library is to use `Controller` directly. `Controller` can be used either as `local` or `server` controller.
 
-The project `sslocal-libqss` in the directory `client` is used as a demonstration to show you how to use `LocalController` class.
+The project `sslocal-libqss` in the directory `client` is used as a demonstration to show you how to use `Controller` class.
 
-Do bear in mind that all dependencies of `libQtShadowsocks` will be passed to your project as well. That is, including `QtCore`, `QtNetwork`, `QtConcurrent` and `QCA`.
+Do bear in mind that all dependencies of `libQtShadowsocks` will be passed to your project as well. That is, including `QtCore`, `QtNetwork`, `QtConcurrent` and `Botan`.
