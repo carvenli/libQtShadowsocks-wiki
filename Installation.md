@@ -24,3 +24,6 @@ dpkg-buildpackage -uc -us -b
 ```
 
 Then install `libqtshadowsocks` and `shadowsocks-libqtshadowsocks` deb packages using command `dpkg -i`.
+
+##Other Operating Systems##
+Check [Compiling](https://github.com/librehat/libQtShadowsocks/wiki/Compiling) page.
