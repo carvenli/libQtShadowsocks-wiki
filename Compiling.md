@@ -16,4 +16,4 @@ make
 sudo make install
 ```
 
-The above procedures will compile and install both `libQtShadowsocks` and `shadowsocks-libQtShadowsocks`. If you're a packager, you might need to split it into two packages depending on your distribution's guidelines.
+The above procedures will compile and install both `libQtShadowsocks` and `shadowsocks-libQtShadowsocks`. If you're a packager, you might need to split it into two or three packages depending on your distribution's guidelines.
