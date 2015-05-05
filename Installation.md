@@ -16,7 +16,7 @@ Requirement: Debian >= 7 or Ubuntu >= 14.04
 
 For Ubuntu users, please use [PPA](https://code.launchpad.net/~hzwhuang/+archive/ubuntu/ss-qt5).
 
-For Debian and other Debian-based distributions, build deb packages through commands below:
+For Debian and other Debian-based distributions, build deb packages via commands below:
 
 ```bash
 sudo apt-get install qt5-qmake qtbase5-dev libbotan1.10-dev #skip this part if you installed these packages
