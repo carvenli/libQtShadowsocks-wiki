@@ -4,4 +4,4 @@ You can subclass `Controller` to write your own controller classes. While the re
 
 The project `sslocal-libqss` in the directory `client` is used as a demonstration to show you how to use `Controller` class.
 
-Do bear in mind that all dependencies of `libQtShadowsocks` will be passed to your project as well. That is, including `QtCore`, `QtNetwork`, `QtConcurrent` and `Botan`.
+Do bear in mind that all dependencies of `libQtShadowsocks` will be passed to your project as well. That is, including `QtCore`, `QtNetwork`, and `Botan`.
