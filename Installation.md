@@ -1,5 +1,7 @@
 ##Microsoft Windows##
 
+Need Windows Vista or later.
+
 The binary executables of client `shadowsocks-libqss` are provided in [release](https://github.com/librehat/libQtShadowsocks/releases).
 
 No prebuilt libraries are provided because of various compilers, Qt and Botan library versions.
