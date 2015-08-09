@@ -2,13 +2,13 @@
 
 Need Windows Vista or later.
 
-The binary executables of client `shadowsocks-libqss` are provided in [release](https://github.com/librehat/libQtShadowsocks/releases).
+Prebuilt client `shadowsocks-libqss` are provided in [release](https://github.com/librehat/libQtShadowsocks/releases).
 
-No prebuilt libraries are provided because of various compilers, Qt and Botan library versions.
+No prebuilt libraries are provided for Windows because of various compilers, Qt and Botan library versions.
 
 ##Fedora/Red Hat Enterprise Linux/CentOS##
 
-Requirement: Fedora >= 20 or Red Hat Enterprise Linux >= 7
+Requirement: Fedora >= 21 or Red Hat Enterprise Linux >= 7
 
 You can install this library and the client via [librehat/shadowsocks project in Copr](http://copr.fedoraproject.org/coprs/librehat/shadowsocks/).
 
@@ -21,7 +21,7 @@ For Ubuntu users, please use [PPA](https://code.launchpad.net/~hzwhuang/+archive
 For Debian and other Debian-based distributions, build deb packages via commands below:
 
 ```bash
-sudo apt-get install qt5-qmake qtbase5-dev libbotan1.10-dev #skip this part if you installed these packages
+sudo apt-get install qt5-qmake qtbase5-dev libbotan1.10-dev #skip this part if you've already installed these packages
 dpkg-buildpackage -uc -us -b
 ```
 
